@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/** Nav-bar **/
+.container{
+    display: flex;
+    padding: 10px 100px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+}
+ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+.container button{
+    padding: 15px 60px;
+    margin: auto 1px;
+    background-color: #FF8C00;
+    border-color: solid #FF8C00;
+    border: 0;
+    cursor: pointer;
+    color: #ffff;
+    border-radius: 30px;
+}
+
+.container button:hover{
+    background-color: #FFD580;
+    color: #808080;
+    transition: 0.5s ease;
+    border: 1px #FFD580;
+} 
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: #808080;
+    color: #ffff;
+    margin-top: 20px;
+}
+
+.blur{
+    filter: brightness(0.5);
+}
+.carousel-inner h1{
+    position: relative;
+    top: 100px;
+    color: #FF8C00;
+}
+.carousel-inner h2{
+    position: relative;
+    top: 100px;
+    color: #FFD580;
+}
+.hero{
+    padding-top: 20px;
+    align-items: center;
+    padding: 100px;
+}
+.parent{
+    margin-top: 20px;
+    padding:20px 120px;
+}
+.card{
+    text-align: center;
+}
+.image{
+    margin-top: 80px;
+    
+}
+section{
+    padding: 20px 120px;
+    justify-content: space-between;
+}
+section .card-body{
+    background-color: #001f3f;
+    justify-content: space-between;
+    color: #ffff;
+}
+.parent .card-body{
+    background-color: #FF8C00;
+    color: #ffff;
+}
+.help .card{
+    max-width: 900px;
+    height: 400px;
+    margin: auto;
+}
+.card-img{
+    object-fit: cover;
+    height: 100%;
+}
+.help{
+    padding-top: 20px;
+}
+.help .card-title{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.help .card-text{
+    font-size: larger;
+}
+.help button{
+    padding: 10px 50px;
+    background-color: #FF8C00;
+    border-color: solid #FF8C00;
+    border: 0;
+    border-radius: 20px;
+}
+.help button a{
+    color: #ffff;
+    text-decoration: none;
+}
+.parental{
+    margin-top: 20px;
+    padding: 20px 120px;
+}
+.parental .card-body{
+    background-color: #001f3f;
+    color: #ffff;
+    padding-bottom: 20px;
+}
+.parental a{
+    color: #FFD580;
+}
+footer{
+    background-color:#808080;
+    align-items: center;
+    padding: 40px 120px;
+    color:#ffff;
+}
+footer a{
+    color: #001f3f;
+}
+.support{
+    justify-content: space-between;
+}
